@@ -108,7 +108,7 @@ New-NetFirewallRule `
   -LocalPort 22 `
   -RemoteAddress 192.168.56.101 `
   -Action Block
-
+```
 ### 7.3 Verification
 -Confirm firewall rule is active
 -Attempt SSH connection from blocked IP
